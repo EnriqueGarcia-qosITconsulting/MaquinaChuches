@@ -110,7 +110,7 @@ def rellenarMaquina(productos,cantidad):
     cantidad[fila][columna] += relleno
     print("Se ha rellenado",relleno,productos[fila][columna])
     return
-#
+#Se muestra las ventas de cada producto y el total. Luego se apaga la máquina
 def apagarMaquina(productos,precios,productosVendidos):
     print("==================")
     total = 0.0
